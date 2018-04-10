@@ -5,6 +5,24 @@ import javax.swing.JOptionPane;
 
 import processing.core.PApplet;
 
+/**
+ * Prisoner's Dilemma Simulator
+ * 
+ * Simulator demonstrates altruistic and selfish properties 
+ * of an abstract population playing a modified prisoners 
+ * dilemma game among members. Players base their reactions
+ * in the game on the opponents previous move and internal
+ * constants for cooperation after cooperation and
+ * cooperation after denial. Population is evolved based on
+ * players that receive the largest scores after set rounds.
+ * The simulation also randomly assigns the stats of the
+ * children with a normal distribution.
+ * 
+ * 
+ * @author Alexander Ivanov *Later modifications and developments (majority of graph class)
+ * @author Emily Wright *Initial author
+ *
+ */
 public class Main {
 
 	public static int PLAYER_COUNT = 300;

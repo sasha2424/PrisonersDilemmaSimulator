@@ -5,6 +5,12 @@ import javax.swing.JOptionPane;
 
 import processing.core.PApplet;
 
+/**
+ * 
+ * @author Alexander Ivanov
+ * @author Emily Wright
+ *
+ */
 public class Graph extends PApplet {
 
 	private static final double WIDTH = 450, HEIGHT = 450;
